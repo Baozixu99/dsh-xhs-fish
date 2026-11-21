@@ -27,7 +27,7 @@ dsh plugin --profile web add "link:D:\path\to\dsh-xhs-fish"
 或从 GitHub：
 
 ```powershell
-dsh plugin --profile web add "github:<owner>/dsh-xhs-fish"
+dsh plugin --profile web add "github:Baozixu/dsh-xhs-fish"
 ```
 
 装完重启 DSH，刷新页面；会话顶部会出现「小红书工作台」。

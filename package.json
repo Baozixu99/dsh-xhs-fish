@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "小红书 AI 主理人工作台：选题、草稿、评论收件箱、人工审批后发布",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baozixu/dsh-xhs-fish.git"
+  },
+  "homepage": "https://github.com/Baozixu/dsh-xhs-fish",
+  "bugs": {
+    "url": "https://github.com/Baozixu/dsh-xhs-fish/issues"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {
