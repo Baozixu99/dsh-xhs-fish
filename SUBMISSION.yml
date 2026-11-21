@@ -1,0 +1,11 @@
+# Copy this file to awesome-dsh-plugin/data/plugins/Baozixu99__dsh-xhs-fish.yml
+# after the repository has been public for at least one day.
+url: https://github.com/Baozixu99/dsh-xhs-fish
+name: Baozixu99/dsh-xhs-fish
+category: workflow
+description:
+  en: 'Human-in-the-loop Xiaohongshu workbench for DSH: topics, drafts, compliance, approval, comment sync, and reply approval. The default mock engine never calls Xiaohongshu; external actions require explicit approval.'
+  zh: 'DSH 内的小红书人机协作工作台：选题、草稿、合规检查、人工审批、评论同步与回复审批；默认 mock 引擎，不会访问小红书，外发必须显式审批。'
+icon: https://raw.githubusercontent.com/Baozixu99/dsh-xhs-fish/main/assets/icon-180.png
+# Uncomment after uploading the release asset:
+# tarball: https://github.com/Baozixu99/dsh-xhs-fish/releases/download/v0.1.0/dsh-xhs-fish-0.1.0.tgz
