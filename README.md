@@ -1,4 +1,4 @@
-# dsh-xhs-fish
+﻿# dsh-xhs-fish
 
 小红书 AI 主理人工作台（DSH 插件，Phase 1 骨架）。
 
@@ -27,7 +27,7 @@ dsh plugin --profile web add "link:D:\path\to\dsh-xhs-fish"
 或从 GitHub：
 
 ```powershell
-dsh plugin --profile web add "github:Baozixu/dsh-xhs-fish"
+dsh plugin --profile web add "github:Baozixu99/dsh-xhs-fish"
 ```
 
 装完重启 DSH，刷新页面；会话顶部会出现「小红书工作台」。

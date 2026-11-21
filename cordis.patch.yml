@@ -1,10 +1,10 @@
-# dsh-xhs-fish 的 bundle patch
+﻿# dsh-xhs-fish 的 bundle patch
 #
 # 本地安装：
 #   dsh plugin --profile web add link:<本目录绝对路径>
 # 如果当前 DSH 使用 desktop profile，把 web 换成 desktop。
 # 或：
-#   dsh plugin --profile web add github:Baozixu/dsh-xhs-fish
+#   dsh plugin --profile web add github:Baozixu99/dsh-xhs-fish
 #
 # 装完重启 DSH，设置页/会话视图会出现「小红书工作台」。
 - insert:
