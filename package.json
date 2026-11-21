@@ -1,0 +1,61 @@
+{
+  "name": "dsh-xhs-fish",
+  "version": "0.1.0",
+  "description": "小红书 AI 主理人工作台：选题、草稿、评论收件箱、人工审批后发布",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib",
+    "locale",
+    "scripts/doctor.mjs",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "SECURITY.md",
+    "tests/*.test.mjs"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.1",
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/doctor.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "xiaohongshu",
+    "ai-virtual-character",
+    "human-in-the-loop"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

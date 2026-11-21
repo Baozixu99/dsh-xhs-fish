@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Xiaohongshu AI operator workbench",
+    "description": "Topics, drafts, compliance checks, human approval, publishing, comment sync, and reply approval inside DSH. The default mock engine never calls Xiaohongshu; external actions require explicit approval and confirmation.",
+    "detail": "docs/DETAIL.md"
+  }
+}

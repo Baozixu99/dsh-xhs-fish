@@ -1,0 +1,13 @@
+node_modules/
+bin/*
+!bin/README.md
+.xhs-home/
+.xhs-phase0/
+cookies.json
+demo-browser/
+tests/*.txt
+tests/*.out
+tests/*.err
+*.log
+*.tgz
+.DS_Store
